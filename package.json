@@ -1,6 +1,6 @@
 {
   "name": "vue-md",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "SSR-friendly markdown component for Vue",
   "main": "dist/vue-md.common.js",
   "repository": "zakj/vue-md",
@@ -19,32 +19,40 @@
     "src"
   ],
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "node": true
+    }
   },
   "ava": {
     "babel": "inherit",
-    "require": ["babel-register"]
+    "require": [
+      "babel-register"
+    ]
   },
   "dependencies": {
     "dedent": "^0.7.0",
     "marked": "^0.3.6",
-    "vue": "2.x"
+    "vue": "^2.3.4"
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "babel-core": "^6.24.1",
+    "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
-    "css-loader": "^0.28.3",
+    "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
     "html-webpack-plugin": "^2.28.0",
     "vue-loader": "^12.2.1",
-    "vue-template-compiler": "^2.3.3",
+    "vue-template-compiler": "^2.3.4",
     "webpack": "2.x",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0"
