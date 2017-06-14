@@ -40,7 +40,7 @@
   "dependencies": {
     "dedent": "^0.7.0",
     "marked": "^0.3.6",
-    "vue": "^2.3.4"
+    "vue": "^2.x"
   },
   "devDependencies": {
     "ava": "^0.19.1",
