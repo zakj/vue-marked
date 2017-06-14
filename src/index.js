@@ -13,7 +13,7 @@ function stringifyVNode(vnode) {
 }
 
 export default {
-  name: 'VueMd',
+  name: 'VueMarked',
   functional: true,
 
   props: {

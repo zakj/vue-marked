@@ -1,9 +1,9 @@
 {
-  "name": "vue-md",
+  "name": "vue-marked",
   "version": "0.1.0",
   "description": "SSR-friendly markdown component for Vue",
-  "main": "dist/vue-md.common.js",
-  "repository": "zakj/vue-md",
+  "main": "dist/vue-marked.common.js",
+  "repository": "zakj/vue-marked",
   "author": "Zak Johnson <me@zakj.net>",
   "license": "MIT",
   "scripts": {
@@ -14,8 +14,8 @@
     "test": "ava"
   },
   "files": [
-    "dist/vue-md.common.js",
-    "dist/vue-md.js",
+    "dist/vue-marked.common.js",
+    "dist/vue-marked.js",
     "src"
   ],
   "babel": {

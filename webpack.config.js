@@ -7,7 +7,7 @@ const TARGET = process.env.npm_lifecycle_event;
 
 const base = {
   entry: {
-    'vue-md': './src',
+    'vue-marked': './src',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -26,8 +26,8 @@ const base = {
 
 const lib = merge(base, {
   output: {
-    filename: 'vue-md.common.js',
-    library: 'VueMd',
+    filename: 'vue-marked.common.js',
+    library: 'VueMarked',
     libraryTarget: 'umd',
   },
   externals: /^[^.]/,

@@ -1,12 +1,12 @@
 import test from 'ava';
-import VueMd from './src';
+import VueMarked from './src';
 
 function mockCreateElement(tag, {domProps: {innerHTML: text}}) {
   return text;
 }
 
 function render({props={}, children=[]}={}) {
-  return VueMd.render(mockCreateElement, {props, children}).trim();
+  return VueMarked.render(mockCreateElement, {props, children}).trim();
 }
 
 test('simple renders', t => {
